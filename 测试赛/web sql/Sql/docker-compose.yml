@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: zjnuctf/202011_web_really_sql
+    environment:
+      - FLAG=flag{th1s_1s_a_l1tt1e_h4rd_Sq1_f1ag}
+    restart: always
+    ports:
+      - "0.0.0.0:8302:80"
