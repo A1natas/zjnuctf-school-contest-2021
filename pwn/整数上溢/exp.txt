@@ -1,0 +1,1 @@
+可以看出b = 1，读取一个整数c，要让八位的unsigned int(b + c)> 9并且让八位的int(b + c) < 0只需要让c=128或更大就会整数溢出，使得unsingned int值为129,int值为负。
