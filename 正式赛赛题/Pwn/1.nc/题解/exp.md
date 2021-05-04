@@ -1,0 +1,4 @@
+```shell
+nc
+cat flag
+```
