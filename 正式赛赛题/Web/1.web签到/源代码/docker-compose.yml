@@ -1,0 +1,13 @@
+# ZJNUCTF 202008 Web Sign in
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: zjnuctf/qian_dao
+    environment:
+      - FLAG=flag{test_flag}
+    restart: always
+    ports:
+      - "0.0.0.0:9016:80"

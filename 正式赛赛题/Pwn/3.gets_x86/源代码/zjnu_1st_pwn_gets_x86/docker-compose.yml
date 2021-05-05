@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  pwn:
+    build: .
+    image: zjnuctf/zjnu_1st_pwn_gets_x86
+    restart: always
+    ports:
+      - "0.0.0.0:8510:10000"

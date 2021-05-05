@@ -3,18 +3,35 @@
 
 # 赛题
 - [x] Web
-- [ ] Pwn
-    - 签到题：NC
-    - 入门题：整数上溢
-    - 简单题：gets_x86
-- [ ] Reverse
+    - 签到题：web签到 / http://cnserver.w4ke.cn:9016/
+    - 入门题：easy_serialization / http://cnserver.w4ke.cn:9015/
+    - 简单题：easy_md5 / http://cnserver.w4ke.cn:9012/
+    - 中等题：easy_upload / http://cnserver.w4ke.cn:9013/
+    - 悬赏题：i_love_sql / http://cnserver.w4ke.cn:9014/
+- [x] Pwn
+    - 签到题：nc / 121.43.169.147:8700
+    - 入门题：整数上溢 / 121.43.169.147:8701
+    - 简单题：gets_x86 / 121.43.169.147:8510
+    - 中等题：superstack / 121.43.169.147:8735
+    - 悬赏题：wqt_judger / 121.43.169.147:8848
+- [x] Reverse
     - 签到题：shiftF12
     - 入门题：bit_operation
     - 简单题：2048
     - 中等题：gravity_ball
     - 悬赏题：seeassGO!
-- [ ] Misc
-- [ ] Crypto
+- [x] Misc
+    - 签到题：扫雷
+    - 入门题：神奇的迷宫
+    - 简单题：奇怪的字符
+    - 中等题：打不开的word
+    - 悬赏题：嫌疑人bmth的硬盘
+- [x] Crypto
+    - 签到题：签到
+    - 入门题：熊曰
+    - 简单题：shit_encode
+    - 中等题：easy_rsa
+    - 悬赏题：114514
 
 # 比赛流程
 - [x] 比赛时间: 05.09 13:35-17:35，赛后进行颁奖
@@ -23,6 +40,11 @@
 - [x] 改时间通知
 
 # 比赛流程
+
+## 赛前
+- [ ] 05.06 发邮件通知校赛时间，地点
+
+## 赛中
 - 08:30 - 11:30 测试比赛环境，测试 EXP 是否可用，测试 flag 是否正常
 - 12:40 - 12:45 志愿者到位
 - 13:00 - 13:30 入场

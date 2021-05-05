@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  pwn:
+    build: .
+    image: zjnuctf/zjnu_1st_pwn_judger_wqt
+    restart: always
+    ports:
+      - "0.0.0.0:8848:10000"

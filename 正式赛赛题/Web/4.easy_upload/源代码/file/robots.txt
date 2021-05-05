@@ -1,0 +1,2 @@
+flag{this_is_not_real_flag}，也许hint.php会对你有帮助，just do it！
+
